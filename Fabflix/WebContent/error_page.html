@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="home.css" />
+   	<script type="text/javascript" 
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script src="js/jQuery.autocomplete.js"></script> 	
+	<title>FabFlix - Error</title>
+</head>
+<body>
+	<div id="websitetitle">
+		<h1><img src="image/movielogo.png" alt="logo" style="width:70px; height:70px;">Fabflix</h1>
+	</div>
+
+	<nav>
+		<div class="container">
+			<ul class="navbar-left">
+			</ul>
+		
+			<ul class="navbar-middle">
+				<li><a href="browseByGenre">Genre</a></li>
+				<li><a href="browseByTitle">Title</a></li>
+				<li><a href="search.jsp">Search</a></li>
+				<li>
+					<FORM action="search" method="get" class = "search-bar" align = "center">
+						<input type = "text" id="title" name = "title">
+						<script>
+							$("#title").autocomplete("getData.jsp");
+						</script>
+						<input type = "text" name = "year" hidden>
+						<input type = "text" name = "director" hidden>
+						<input type = "text" name = "fname" hidden>
+						<input type = "text" name = "lname" hidden>
+						
+						<INPUT type = "submit" value = "Search" id = "search">
+					</FORM>
+				</li>				
+			</ul>
+		
+			<ul class="navbar-right">				
+	    	</ul> 
+		</div>
+	</nav>
+	
+	<h1>ERROR 404: Page Not Found.</h1>
+
+</body>
+</html>

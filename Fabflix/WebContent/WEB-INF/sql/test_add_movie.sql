@@ -1,0 +1,1 @@
+exec add_movie 'title',1000,'director','fname','lname','genre'

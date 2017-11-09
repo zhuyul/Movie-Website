@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+
+body {
+  font: 22px Arial, sans-serif;
+}
+
+#websitetitle{
+	text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+nav {
+  position: relative;
+  padding: 0px 0 10px 0;
+  background:  #696969;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav .navbar-left{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 10%;
+  color: #ffffff;
+}
+
+nav .navbar-middle {
+  padding-top: 18px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+nav .navbar-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+}
+
+nav ul li {
+  position: auto;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav .navbar-middle li{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  width: 15%;
+  text-align: left;
+}
+
+
+nav .navbar-left li{
+  white-space: nowrap;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  width: 15%;
+  text-align: right;
+}
+
+
+li a:hover{
+  color:#000000;
+}
+
+
+div table .adjust{
+  margin-top: 15%;
+  margin-bottom: 25%;
+
+}
+
+
+div.img {
+    margin: 5px;
+    border: none;
+    width: 180px;
+}
+
+div.img:hover {
+    border: none;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+div table.center{
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+div table tr th{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: inline-table;
+  width: 30%;
+}
+div table tr th a {
+  text-decoration: none;
+  font: 22px Arial, sans-serif;
+  color: #000000; 
+}
+
+
+
+.form-button{
+  padding: 8px 15px;
+  background:#696969;
+  color: #fff;
+  text-align:center;
+  border:0 none;
+  border-radius: 5px;
+}
+
+.genrelist{
+    float:left;
+	width:20%;
+}
+
+.genrelist ul li{
+	list-style-type:none
+}
+
+.genrelist ul li a {
+	text-decoration: none;
+	color: #5e545c;
+}
+
+.listofmovies{
+	float:right;
+	width:80%;
+}
+
+#dropDown select, #dropDown p {
+    display: inline;
+    line-height: 2px;
+  }
+
+.productdescription {
+  margin-right: 10%;
+  background-color:#FFFFFF;
+  float:center;
+}
+
+.pop_up_window{
+	display: none;
+	border: 1px solid black;
+	position: absolute;
+	z-index:100;
+}
+
+.show{
+	display: block;
+}
+
+.movieCard {
+    position:relative;
+}
+.movieCard div {
+    display: none;
+}
+.movieCardHover {
+    position:relative;
+}
+.movieCardHover div {
+    display:block;
+    position:absolute;
+    width: 15em;
+    top:1.3em;
+    *top:20px;
+    left:70px;
+    z-index:1000;
+    background-color: #DDD;
+    padding: 5px;
+    border-radius: 4px;
+}
+
